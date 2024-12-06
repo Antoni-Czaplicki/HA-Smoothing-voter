@@ -1,0 +1,37 @@
+{
+  "title": "Smoothing Voter",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Smoothing Voter",
+        "description": "Select a name and at least three entities for smoothing.",
+        "data": {
+          "name": "Name",
+          "entities": "Entities",
+          "voter_threshold": "Voter Threshold",
+          "smoothing_threshold": "Smoothing Threshold"
+        },
+        "error": {
+          "not_enough_entities": "You must select at least three entities."
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Smoothing Voter Options",
+        "description": "Update your smoothing voter configuration.",
+        "data": {
+          "name": "Name",
+          "entities": "Entities",
+          "voter_threshold": "Voter Threshold",
+          "smoothing_threshold": "Smoothing Threshold"
+        },
+        "error": {
+          "not_enough_entities": "You must select at least three entities."
+        }
+      }
+    }
+  }
+}

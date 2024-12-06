@@ -1,0 +1,37 @@
+{
+    "title": "Głosowanie Wygładzające",
+    "config": {
+      "step": {
+        "user": {
+          "title": "Konfiguracja Głosowania Wygładzającego",
+          "description": "Wybierz nazwę i co najmniej trzy encje.",
+          "data": {
+            "name": "Nazwa",
+            "entities": "Encje",
+            "voter_threshold": "Próg głosowania",
+            "smoothing_threshold": "Próg wygładzania"
+          },
+          "error": {
+            "not_enough_entities": "Musisz wybrać co najmniej trzy encje."
+          }
+        }
+      }
+    },
+    "options": {
+      "step": {
+        "init": {
+          "title": "Opcje Głosowania Wygładzającego",
+          "description": "Zaktualizuj konfigurację.",
+          "data": {
+            "name": "Nazwa",
+            "entities": "Encje",
+            "voter_threshold": "Próg głosowania",
+            "smoothing_threshold": "Próg wygładzania"
+          },
+          "error": {
+            "not_enough_entities": "Musisz wybrać co najmniej trzy encje."
+          }
+        }
+      }
+    }
+  }

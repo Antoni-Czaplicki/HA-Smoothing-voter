@@ -1,0 +1,16 @@
+{
+  "domain": "smoothing_voter",
+  "name": "Smoothing voter",
+  "codeowners": ["@Antoni-Czaplicki"],
+  "config_flow": true,
+  "dependencies": ["group"],
+  "documentation": "https://github.com/Antoni-Czaplicki/HA-Smoothing-voter",
+  "issue_tracker": "https://github.com/Antoni-Czaplicki/HA-Smoothing-voter/issues",
+  "homekit": {},
+  "integration_type": "helper",
+  "iot_class": "calculated",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "version": "0.0.1"
+}
